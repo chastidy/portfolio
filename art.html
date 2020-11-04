@@ -17,7 +17,7 @@
         }
        p{
         font-family: 'Poppins', sans-serif;
-        font-size: 21px;
+        font-size: 18px;
          }
 
         .flex-container{
@@ -32,6 +32,36 @@
         padding:20px;
         font-size: 30px;
        }
+
+       .sub-flex-container{
+        display:flex;
+        background-color: #EDE7E3;
+        flex-direction: row;
+        padding:20px;
+        /* border: 3px solid #272932; */
+        }
+        .sub_1{
+            /* border: 3px solid yellow; */
+            width:50%;
+            padding:15px;
+
+        }
+        .sub_2{
+            display:flex;
+            flex-direction: column;
+            /* border: 3px solid green; */
+            align-content: center;
+            padding:0px;
+            width:50%;
+
+        }
+        .sub_2 > div{
+            /* border: 3px solid black; */
+            margin:auto;
+            padding:5px;
+        }
+        
+
     </style>
     </head>
 
@@ -54,11 +84,29 @@
                     <br>
                     <div class="flex-container" style="font-family: 'Poppins', sans-serif">
                         <div>
-                            <h5>Logo Designing</h5>
-                            <p> designing Delivery On Call </p>
+                            <h5>Logo Design</h5>
+                            <div class="sub-flex-container">
+                                <div class="sub_1">
+                            
+                                    <p> Over this past summer of 2020, I designed logo concepts for Delivery On Call, 
+                                        a small food delivery buisness for healthcare workers that has yet to be actualized. 
+                                        The first step was creating a set of different concepts to show my client Dom. After 
+                                        our meeting, I developed the final design on the bottom. I used a light shade of blue on the 
+                                        take-out bowl in refrence to the healthcare workers on the front lines. 
+                        
+                                     </p>
+                                </div>
+                                <div class="sub_2">
+                                    <div><img src="images/Dom_Drafts.png" alt="DeliveryonCallDraft" width="90%"></div>
+                                   <div><img src="images/DOMS_Logo.png" alt="DeliveryonCallLogo" width="90%"></div> 
+                                </div>
+
+                            </div>
+
+
+                            
                             <br>
-                            <img src="images/Dom_Drafts.png" alt="DeliveryonCallDraft" width="50%">
-                            <img src="images/DOMS_Logo.png" alt="DeliveryonCallLogo" width="50%">
+                           
 
                         </div>
                         <div>
